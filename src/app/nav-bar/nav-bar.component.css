@@ -1,0 +1,19 @@
+.active {
+    background-color: #1ABC9C!important;
+}
+.active,.navbar-nav li a{
+
+    border-radius: 10px;
+    color: white !important;
+    font-weight: bold;
+    padding-inline: 1rem;
+}
+.navbar-nav li a{
+    background-color: transparent;
+}
+.navbar {
+background-color: #2C3E50 !important;
+z-index: 999;
+padding: 30px;
+transition: all .5s ease-in-out;
+}

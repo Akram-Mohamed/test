@@ -1,0 +1,51 @@
+<div class="main container-fluid  d-flex justify-content-center align-items-center flex-column   my-5">
+    <div  class="main-about-holder  text-center pt-4 ">
+        <h2  class="text-uppercase mb-3 fs-1 fw-bolder">CONTACT COMPONENT</h2>
+        <div  class="d-flex align-items-center justify-content-center mb-3 ">
+            <div class="line  "></div>
+                <i  class="fa-solid fa-star mx-4"></i>
+            <div  class="line"></div>
+        </div>
+    </div>
+    <div class="contact-form container">
+        <div class="row d-flex align-content-center justify-content-center  g-5 p-5">
+            <div class="col-md-12 ">
+                <div class="contact-data d-flex justify-content-center align-items-center flex-column  ">
+                    <div  class="user-name  w-75 m-auto  text-success  position-relative   p-3 overflow-hidden " >
+                     
+
+                       <p #userName class="text-down-animi position-absolute"> user name</p>
+                     </div>
+                    <input (keyup)="inputCheck($event.target)" class="form-control w-75 m-auto " type="text" placeholder="user Name">
+                </div>
+            </div>
+            <div class="col-md-12 ">
+                <div class="contact-data d-flex justify-content-center align-items-center flex-column">
+                    <div class="user-name  w-75 m-auto  text-success  position-relative   p-3 overflow-hidden " >
+                        <p  class="text-down-animi position-absolute  "> user Age</p>
+                      </div>
+                    <input  (keyup)="inputCheck($event.target)"  class="form-control w-75 m-auto" type="text" placeholder="user Age">
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="contact-data d-flex justify-content-center align-items-center flex-column">
+                    <div class="user-name  w-75 m-auto  text-success  position-relative   p-3 overflow-hidden " >
+                        <p  class="text-down-animi position-absolute  "> user Email</p>
+                      </div>
+                    <input (keyup)="inputCheck($event.target)"  class="form-control w-75 m-auto" type="text" placeholder="user Email">
+                </div>
+            </div>
+            <div class="col-md-12 ">
+                <div class="contact-data d-flex justify-content-center align-items-center flex-column">
+                    <div class="user-name  w-75 m-auto  text-success  position-relative   p-3 overflow-hidden " >
+                        <p  class="text-down-animi position-absolute  "> user Password</p>
+                      </div>
+                    <input (keyup)="inputCheck($event.target)"  class="form-control w-75 m-auto  " type="password" placeholder="user Password">
+                </div>
+            </div>
+            <div class="col-md-12 ">
+                <button class="btn ">Submit</button>
+            </div>
+        </div>
+    </div> 
+</div>

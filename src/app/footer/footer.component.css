@@ -1,0 +1,21 @@
+.footer{
+    padding: 3rem;
+     z-index: 999;
+    background-color: #2C3E50;
+    color: white;
+
+}
+.arroud-web-links {
+    list-style: none;
+}
+.arroud-web-links li {
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: .5rem;
+    margin-right: .5rem;
+    cursor: pointer;
+  
+}
+.copy-right{
+    background-color: #1A252F;
+}

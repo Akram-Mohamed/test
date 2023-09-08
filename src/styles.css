@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+:root{
+    color: white ;
+    scroll-behavior: smooth;
+    scroll-padding-top: 10px;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    background-color: #1ABC9C;
+padding: 5rem;
+}
+
+.line{
+    width:80px;
+    height: 4px;
+    background-color: white;
+    
+}
